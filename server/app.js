@@ -33,7 +33,7 @@ client.on('ready', () => {
 
 
     cron.schedule('55 16 * * 1,4',() => {
-        console.log('running at 16:30 on Monday and Thursday');
+        console.log('running at 16:55 on Monday and Thursday');
         date = new Date();
         day = date.getDate();
         mounth = date.getMonth()+1;
